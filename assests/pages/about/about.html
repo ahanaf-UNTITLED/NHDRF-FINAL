@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../../images/i.ico" type="image/x-icon" />
+
+    <title>About - Urban Plate</title>
+
+    <!-- Bootstrap CSS (5.3.0 version for better compatibility) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+       <a class="navbar-brand" href="../../../index.html">
+                <h1 class="text-center fw-bold fs-2 text-white" style="font-style: italic;">
+  Urban<span class="text-danger">Plate</span>
+</h1>
+
+            </a>
+
+        <!-- Toggler for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links for large screens -->
+        <ul class="navbar-nav ms-auto d-none d-lg-flex">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../../../index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="../about/about.html">About</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../contact/contact.html">Contact</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../faq/faq.html">FAQ</a>
+          </li>
+        </ul>
+
+        <!-- Offcanvas menu for small screens with dark background -->
+        <div
+          class="offcanvas offcanvas-end bg-dark text-light"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-linka active" href="../about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../faq/faq.html">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="text">
+      <div class="container py-5">
+        <div class="row align-items-center py-5">
+          <!-- Left Side: Description -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h2 class="mb-3">About Our Restaurant</h2>
+            <p>
+              Welcome to <strong>Our Restaurant</strong> – a modern, clean, and
+              inviting establishment that offers a wide variety of delicious
+              meals and drinks. Our chefs are dedicated to crafting the perfect
+              dishes to satisfy your cravings, and our friendly staff are always
+              ready to attend to your needs.
+            </p>
+            <p>
+              Whether you're looking for a quick bite, a leisurely meal, or a
+              special occasion, we've got you covered! Our menu is designed to
+              cater to all tastes and dietary requirements, and we're always
+              happy to accommodate special requests.
+            </p>
+          </div>
+
+          <!-- Right Side: Image -->
+          <div class="col-md-6 text-center">
+            <img
+              src="../../images/res.jpg"
+              alt="Restaurant Image"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container py-5">
+      <h2 class="text-center mb-5 py-5">Meet Our Team</h2>
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center align-items-center"
+      >
+        <!-- Staff Card 1 -->
+        <div class="col">
+          <div class="card staff-card shadow-sm">
+            <img
+              src="../../images/employee3.jpg"
+              class="card-img-top"
+              alt="Staff Member 1"
+            />
+            <div class="staff-info">
+              <h5>John Doe</h5>
+              <p>Chef</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Staff Card 2 -->
+        <div class="col">
+          <div class="card staff-card shadow-sm">
+            <img
+              src="../../images/manager.jpg"
+              class="card-img-top"
+              alt="Staff Member 2"
+            />
+            <div class="staff-info">
+              <h5>Jane Smith</h5>
+              <p>Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Staff Card 3 -->
+        <div class="col">
+          <div class="card staff-card shadow-sm">
+            <img
+              src="../../images/waiter.jpg"
+              class="card-img-top"
+              alt="Staff Member 3"
+            />
+            <div class="staff-info">
+              <h5>Michael Lee</h5>
+              <p>Waiter</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Staff Card 4 -->
+      </div>
+    </div>
+    <footer class="bg-dark text-light py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Column 1 -->
+          <div class="col-md-4">
+            <h5>About Us</h5>
+            <p>
+              Welcome to Our Restaurant, a modern eatery serving a variety of
+              delicious meals. We use fresh, hygienic ingredients and craft our
+              dishes with love to give you an exceptional dining experience in a
+              clean, modern environment.
+            </p>
+          </div>
+          <!-- Footer Column 2 -->
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="../../../index.html" class="text-light">Home</a></li>
+              <li><a href="#" class="text-light">Menu</a></li>
+              <li>
+                <a href="../contact/contact.html" class="text-light">Contact</a>
+              </li>
+              <li>
+                <a href="../about/about.html" class="text-light">About</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Footer Column 3 -->
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>Feel free to reach out for any inquiries!</p>
+            <p>
+              Email:
+              <a href="mailto:info@ourrestaurant.com" class="text-light"
+                >info@ourrestaurant.com</a
+              >
+            </p>
+            <p>
+              Phone:
+              <a href="tel:+1234567890" class="text-light">+123 456 7890</a>
+            </p>
+          </div>
+        </div>
+                <p class="text-center mt-5">&copy; 2025 Our Ahanaf Intesher. All rights reserved.</p>
+
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

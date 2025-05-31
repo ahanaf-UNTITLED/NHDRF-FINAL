@@ -1,0 +1,48 @@
+section.text{
+    background-color: rgba(218, 214, 214, 0.671);
+
+}
+
+.staff-card {
+            transition: transform 0.3s ease-in-out;
+            border: none;
+        }
+
+        .staff-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .staff-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .staff-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .staff-info h5 {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .staff-info p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .staff-card-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 576px) {
+            .staff-card img {
+                height: 200px;
+            }
+        }
